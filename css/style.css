@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto Mono', monospace !important;
+}
+#header{ 
+	background-image: url('../images/background.jpeg');
+    background-size: 100% 100%;
+}
+#header h1{
+	font-size:55px;
+    font-weight: bold;
+}
+.navbar {
+    padding:0!important;
+}
+.navbar .active {
+    background-color: rgb(128, 41, 0);
+    
+}
+.carousel-inner{
+    height: 25rem;
+}
+.carousel-inner img{
+    height:25rem;
+    width: 20rem;
+    
+}
+#asiaConfirmed, #auConfirmed, #afConfirmed, #euConfirmed, #naConfirmed, #saConfirmed{
+    color: rgb(0, 147, 213);
+    font-weight: bold;
+}
+#asiaDeath, #auDeath,#afDeath, #euDeath, #naDeath, #saDeath{
+    color:sienna;
+    font-weight: bold;
+}
+#mainCountryStats{
+    background-color: rgba(128, 128, 128, 0.164);
+}
+svg path{
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke:white;
+    stroke-width: 0.6!important;
+}
+
+svg path:hover{
+    cursor:pointer;
+    transition: 0.6s;
+}
+.highlight {
+    fill:gray!important;
+    stroke: black;
+    stroke-width: 2!important;
+    transition: 0.6s;
+}
+#Australia,#Europe,#Africa,#NorthAmerica,#SouthAmerica{
+    display : none;
+}
+
+#world {
+    font-family: 'Roboto Mono', monospace;
+}
+#chart{
+    font-family: 'Roboto Mono', monospace;
+}
+
+canvas{
+    
+    height: 250px!important;
+    width: auto;
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+footer{
+    background-color: #A9A9A9;
+}
+
+ul li{
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+.material-icons-outlined {
+    vertical-align: middle;
+}
+
+#additional{
+    background-color: rgba(128, 128, 128, 0.164);
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
